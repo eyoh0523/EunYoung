@@ -46,10 +46,10 @@ body{margin:0; font-family: "NEXONLv2Gothic","S-CoreDream","NotoKr","Malgun Goth
 .visual .visual_control{position:absolute; bottom:120px; right:33px; z-index:1; font-size: 0; line-height: 0;}
 .visual .visual_arrow{display: inline-block; position: relative; width: 14px; height: 26px;}
 .visual .visual_arrow.visual_prev{margin-left: 13px;}
-.visual .visual_arrow:before{display: block; position: absolute; top:0; bottom:0; left:0; right:0; width:14px; height:26px; margin: auto; background: url("/images/main/rowgroup_sprite.png") no-repeat left top;}
+.visual .visual_arrow:before{display: block; position: absolute; top:0; bottom:0; left:0; right:0; width:14px; height:26px; margin: auto; background: url("images/main/rowgroup_sprite.png") no-repeat left top;}
 .visual .visual_arrow.visual_next:before{background-position: left -36px;}
 .visual .visual_control .visual_auto{display:inline-block; position:relative; width:28px; height:26px; margin: 0 9px; vertical-align:top;}
-.visual .visual_control .visual_auto:before{display:block; position:absolute; top:0; bottom:0; left:0; right:0; width:10px; height:11px; margin: auto; background:url('/images/main/rowgroup_sprite.png') no-repeat left -72px;}
+.visual .visual_control .visual_auto:before{display:block; position:absolute; top:0; bottom:0; left:0; right:0; width:10px; height:11px; margin: auto; background:url('images/main/rowgroup_sprite.png') no-repeat left -72px;}
 .visual .visual_control .visual_auto.slick-play:before{left:5px; background-position:left -93px;}
 
 @media all and (max-width: 1780px) {
@@ -114,7 +114,7 @@ h2.h0{font-size: 32px; line-height: 34px; letter-spacing: 0; font-weight: 600; c
 .performance .performance_item:hover .performance_image:before{opacity: 1;}
 .performance .performance_item:hover .performance_image img{transform: scale(1.1);}
 .performance .performance_item .performance_view{position: absolute; top:207px; left: 0; right: 0; opacity: 0; z-index: 1; width: 139px; height: 47px; padding-left: 24px; margin: 0 auto; border: 1px solid #fff; font-size: 16px; line-height: 47px; letter-spacing: 0; font-weight: 400; color: #fff; transition: opacity 0.25s ease-in-out;}
-.performance .performance_item .performance_view:before{display: block; position: absolute; top:19px; right: 17px; width: 14px; height: 8px; background: url("/images/main/performance_icon.png") no-repeat; filter: grayscale(0) brightness(0) saturate(1) invert(1);}
+.performance .performance_item .performance_view:before{display: block; position: absolute; top:19px; right: 17px; width: 14px; height: 8px; background: url("images/main/performance_icon.png") no-repeat; filter: grayscale(0) brightness(0) saturate(1) invert(1);}
 .performance .performance_item .performance_view:hover{background-color: #fff; color: #202020;}
 .performance .performance_item .performance_view:hover:before{filter: inherit;}
 .performance .performance_item:hover .performance_view{opacity: 1;}
@@ -129,7 +129,7 @@ h2.h0{font-size: 32px; line-height: 34px; letter-spacing: 0; font-weight: 600; c
 .performance .performance_content .info span.time:before{display: block; position: absolute; left: 0; top:3px; width: 1px; height: 13px; background-color: #b2b2b2;}
 
 .performance .performance_control{display: inline-block; position: absolute; top:10px; right:2px;}
-.performance .performance_control button{display: inline-block; position: relative; top: 1px; width:18px; height:11px; background:url("/images/main/rowgroup_sprite.png") no-repeat left -114px;}
+.performance .performance_control button{display: inline-block; position: relative; top: 1px; width:18px; height:11px; background:url("images/main/rowgroup_sprite.png") no-repeat left -114px;}
 .performance .performance_control button.performance_next{margin:0 41px; background-position: left -135px;}
 .performance .performance_control button:hover{background-position: left -156px;}
 .performance .performance_control button.performance_next:hover{background-position: left -177px;}
@@ -189,7 +189,7 @@ h2.h0{font-size: 32px; line-height: 34px; letter-spacing: 0; font-weight: 600; c
 .performance_video .performance_video_content{display: table; position: absolute; top: 0; left: 0; width: 100%; height:calc(100% - 78px);}
 .performance_video .performance_video_content .title{display: table-cell; position: relative; font-size: 20px; line-height: 32px; letter-spacing: 0; color: #fff; font-weight: 200; vertical-align: middle;}
 .performance_video .performance_video_content .title span{display: block; font-weight: 600;}
-.performance_video .performance_video_content .title:before{display: block; position: absolute; bottom:110px; left: 0; right: 0; width:53px; height: 53px; margin: 0 auto; border: 3px solid #fff; border-radius: 50%; background: url("/images/main/video_icon.png") no-repeat 17px 14px; box-sizing:border-box; }
+.performance_video .performance_video_content .title:before{display: block; position: absolute; bottom:110px; left: 0; right: 0; width:53px; height: 53px; margin: 0 auto; border: 3px solid #fff; border-radius: 50%; background: url("images/main/video_icon.png") no-repeat 17px 14px; box-sizing:border-box; }
 
 .performance_video .performance_video_item:hover .performance_video_content .title:before{border-color:#009ea0; background-color: #009ea0;}
 @media all and (max-width: 1500px) {
@@ -219,11 +219,11 @@ h2.h0{font-size: 32px; line-height: 34px; letter-spacing: 0; font-weight: 600; c
 .schedule .calender_wrap{position:relative; width:100%; padding:58px 20px 35px 20px;}
 .schedule .calender_header{position:relative; margin-left:43px;}
 .schedule .calender_header .text{position:relative; padding-left:59px; color:#1c1c1c; font-size:26px; line-height:36px; letter-spacing:-0.02em; font-weight:600;}
-.schedule .calender_header .text:before{display:block; position:absolute; top:0; left:0; width:36px; height:37px; background:url('/images/main/calender_icon.png') no-repeat 0 0 / cover;}
+.schedule .calender_header .text:before{display:block; position:absolute; top:0; left:0; width:36px; height:37px; background:url('images/main/calender_icon.png') no-repeat 0 0 / cover;}
 .schedule .calender_header .calender_button{position:absolute; top:5px; right:42px;}
 .schedule .calender_header .calender_button .button{display:inline-block; position:relative; width:18px; height:24px; vertical-align:top;}
 .schedule .calender_header .calender_button .button+.button{margin-left:39px;}
-.schedule .calender_header .calender_button .button:before{display:block; position:absolute; top:0; left:0; right:0; bottom:0; width:8px; height:14px; margin:auto; background:url('/images/main/schedule_sprite.png') no-repeat 0 0 / 100% 271.42%;}
+.schedule .calender_header .calender_button .button:before{display:block; position:absolute; top:0; left:0; right:0; bottom:0; width:8px; height:14px; margin:auto; background:url('images/main/schedule_sprite.png') no-repeat 0 0 / 100% 271.42%;}
 .schedule .calender_header .calender_button .button.calendar_next:before{transform:rotate(180deg);}
 .schedule .calender_box{padding:42px 10px 0 10px;}
 .schedule .calendar_table{font-size:16px; line-height:28px; text-align:center;}
@@ -238,12 +238,12 @@ h2.h0{font-size: 32px; line-height: 34px; letter-spacing: 0; font-weight: 600; c
 .schedule .calendar_table tbody td > button:not(.schedule_open){cursor:unset; pointer-events:none;}
 .schedule .calendar_table tbody td.today .day{background-color:#f6f6f6;}
 .schedule .calendar_table tbody td .schedule_layer{opacity:0; visibility:hidden; display:block; position:absolute; z-index:10; bottom:45px; left:-4px; width:281px; min-height:63px; border:1px solid #009fa1; border-radius:35px; box-shadow: 4px 3px 46px 0 rgba(103, 151, 152, 0.15); background-color:#fff; transition-duration:0.25s; transition-timing-function:ease-in-out;}
-.schedule .calendar_table tbody td .schedule_layer:after{display:block; position:absolute; top:100%; left:40px; width:14px; height:11px; background:url('/images/main/calender_deco.png') no-repeat 0 0;}
+.schedule .calendar_table tbody td .schedule_layer:after{display:block; position:absolute; top:100%; left:40px; width:14px; height:11px; background:url('images/main/calender_deco.png') no-repeat 0 0;}
 .schedule .calendar_table tbody td .schedule_layer ul{position:relative; margin: 0; padding:18px 40px 18px 29px; text-align:left;}
 .schedule .calendar_table tbody td .schedule_layer ul .schedule_item{position:relative; padding-left:22px; color:#171717; font-size:15px; line-height:25px; letter-spacing:-0.01em; font-weight:200;}
 .schedule .calendar_table tbody td .schedule_layer ul .schedule_item:before{display:block; position:absolute; top:11px; left:0; width:8px; height:3px; background-color:#00a5a7;}
 .schedule .calendar_table tbody td .schedule_layer ul .schedule_item a{display:-webkit-box; overflow: hidden; white-space: normal; word-break: keep-all; word-wrap: break-word; -webkit-box-orient: vertical; -webkit-line-clamp:1;}
-.schedule .calendar_table tbody td .schedule_layer .schedule_close{position:absolute; z-index:40; top:22px; right:21px; width:20px; height:20px; background:url('/images/main/schedule_close.png') no-repeat 0 0; font-size:0; line-height:0;}
+.schedule .calendar_table tbody td .schedule_layer .schedule_close{position:absolute; z-index:40; top:22px; right:21px; width:20px; height:20px; background:url('images/main/schedule_close.png') no-repeat 0 0; font-size:0; line-height:0;}
 .schedule .calendar_table tbody tr td:last-child .schedule_layer,
 .schedule .calendar_table tbody tr td:nth-last-child(2) .schedule_layer,
 .schedule .calendar_table tbody tr td:nth-last-child(3) .schedule_layer{left:auto; right:-4px;}
@@ -413,7 +413,7 @@ h2.h0{font-size: 32px; line-height: 34px; letter-spacing: 0; font-weight: 600; c
 .popup .popup_control span.current:before{display: inline-block; position: absolute; top: 0; bottom: 0; right: 11px; width:3px; height: 3px; margin: auto 0; background-color: #b1b1b1; }
 .popup .popup_control span.total{margin-right: 11px;}
 .popup .popup_control button{display: inline-block; position: relative; top:-2px; width:20px; height: 20px; margin: 0 4px 0 5px; vertical-align: top;}
-.popup .popup_control button:before{display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; width:8px; height:11px; margin: auto; background:url("/images/main/rowgroup3_sprite.png") no-repeat left -171px;}
+.popup .popup_control button:before{display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; width:8px; height:11px; margin: auto; background:url("images/main/rowgroup3_sprite.png") no-repeat left -171px;}
 .popup .popup_control button.next:before{background-position: left -192px;}
 .popup .popup_control button.slick-pause:before{width:10px; height:11px; background-position: left -213px;}
 .popup .popup_control button.slick-play:before{width:8px; height:10px; background-position: left -234px;}
@@ -446,15 +446,15 @@ h2.h0{font-size: 32px; line-height: 34px; letter-spacing: 0; font-weight: 600; c
 
 /* goto */
 .goto{margin-top:116px; font-size: 0; line-height: 0;}
-.goto .goto_item{display: inline-block; position: relative; width: 50%; height: 187px; background: #28143a url("/images/main/goto_bg01.png") no-repeat right; vertical-align: top;}
-.goto .goto_item:last-child{background: #173c38 url("/images/main/goto_bg02.png") no-repeat right; }
+.goto .goto_item{display: inline-block; position: relative; width: 50%; height: 187px; background: #28143a url("images/main/goto_bg01.png") no-repeat right; vertical-align: top;}
+.goto .goto_item:last-child{background: #173c38 url("images/main/goto_bg02.png") no-repeat right; }
 .goto .goto_item .goto_anchor{display: block; width: 100%; height: 100%; padding: 53px 0 0 54px;}
 .goto .goto_item p{position:relative; letter-spacing: 0; font-weight: 400; color: #fff;}
 .goto .goto_item .goto_title{display:inline-block; width: 196px; font-size: 28px; line-height: 28px;}
-.goto .goto_item .goto_title:before{display: block; position: absolute; top: -6px; right: -63px; width: 38px; height: 38px; border: 1px solid rgba(255, 255, 255, 0.28); border-radius: 50%; background:url('/images/main/goto_icon01.png') no-repeat center; box-sizing: border-box;}
+.goto .goto_item .goto_title:before{display: block; position: absolute; top: -6px; right: -63px; width: 38px; height: 38px; border: 1px solid rgba(255, 255, 255, 0.28); border-radius: 50%; background:url('images/main/goto_icon01.png') no-repeat center; box-sizing: border-box;}
 .goto .goto_item .goto_text{margin-top:20px; font-size: 16px; line-height: 21px;}
-.goto .goto_item:hover .goto_title:before{background:#fff url('/images/main/goto_icon02.png') no-repeat center;}
-.goto .goto_item:last-child:hover .goto_title:before{background:#fff url('/images/main/goto_icon03.png') no-repeat center;}
+.goto .goto_item:hover .goto_title:before{background:#fff url('images/main/goto_icon02.png') no-repeat center;}
+.goto .goto_item:last-child:hover .goto_title:before{background:#fff url('images/main/goto_icon03.png') no-repeat center;}
 
 @media all and (max-width: 1000px) {
     .goto{margin-top: 104px;}
@@ -485,7 +485,7 @@ h2.h0{font-size: 32px; line-height: 34px; letter-spacing: 0; font-weight: 600; c
 .quick .quick_item .quick_anchor span{position: relative;}
 .quick .quick_item .quick_anchor span:before{display: block; position: absolute; bottom: 0; left: 0; width:0; height: 1px; background-color: #098c7f; transition: width 0.25s ease-in-out;}
 .quick .quick_item:hover .quick_anchor span:before{width: 100%;}
-.quick .quick_item .quick_anchor:before{display: block; position: absolute; top: 0; left: 0; right: 0; margin: 0 auto; background-image: url("/images/main/quick_sprite.png"); background-repeat: no-repeat;}
+.quick .quick_item .quick_anchor:before{display: block; position: absolute; top: 0; left: 0; right: 0; margin: 0 auto; background-image: url("images/main/quick_sprite.png"); background-repeat: no-repeat;}
 .quick .quick_item:nth-child(1) .quick_anchor:before{width: 40px; height: 39px; background-position: 0 -2px;}
 .quick .quick_item:nth-child(2) .quick_anchor:before{width: 25px; height: 43px; background-position: -256px 0;}
 .quick .quick_item:nth-child(3) .quick_anchor:before{width: 34px; height: 40px; background-position: -501px -1px;}

@@ -180,7 +180,7 @@ address,cite,dfn,em,i{font-style:normal;}
 #footer .link_item:last-child:before{display:none}
 #footer .link_item .link_anchor{color:#fff;font-size:15px;font-weight:200;line-height:normal;letter-spacing:-.025em}
 #footer .link_item:first-child .link_anchor{position:relative;padding-left:21px;color:#ffef99;font-weight:500}
-#footer .link_item:first-child .link_anchor:before{display:inline-block;position:absolute;top:calc(50% - 6px);left:0;width:14px;height:15px;background-image:url(/images/main/link_icon.png)}
+#footer .link_item:first-child .link_anchor:before{display:inline-block;position:absolute;top:calc(50% - 6px);left:0;width:14px;height:15px;background-image:url(images/main/link_icon.png)}
 
 /* 하단 관련사이트 */
 #footer .site{position:absolute;top:32px;right:0;z-index:5;width:268px;height:42px;font-size:0;line-height:0;transition-duration:.5s;transition-property:height;transition-timing-function:ease-in-out}
