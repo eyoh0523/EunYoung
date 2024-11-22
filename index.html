@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Keywords" content="강릉,시립예술단">
     <meta name="Description" content="솔향강릉 시립예술단">
-    <link rel="stylesheet" type="text/css" href="/common/css/font.css"/>
-    <link rel="stylesheet" href="/site/gn_art/css/main.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="./json/menusec.json"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/mobile.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/font.css"/>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/main.js"></script>
     <title>솔향강릉 시립예술단</title>
 </head>
 
@@ -21,128 +20,69 @@
         <div class="accessibility">
             <a href="#contents">본문 바로가기</a>
         </div>
-        <div class="inner">
-            <h1 class="logo"><a href="index.html">카페 파스쿠찌</a></h1>
-            <nav class="gnb">
-                <ul>
-                    <li class="depth1">
-                        <a href="./sub/sub1-1.html">CAFFE PASCUCCI</a>
-                        <ul class="depth2">
-                            <li><a href="./sub/sub1-1.html">브랜드 소개</a></li>
-                            <li><a href="./sub/sub1-1.html">커피 & 컬쳐</a></li>
-                            <li><a href="./sub/sub1-1.html">ESPRESSO BAR</a></li>
-                            <li><a href="./sub/sub1-1.html">CENTRO</a></li>
-                        </ul>
-                    </li>
-                    <li class="depth1">
-                        <a href="./sub/sub2-1.html">MENU</a>
-                        <ul class="depth2">
-                            <li><a href="./sub/sub2-1.html">Coffee</a></li>
-                            <li><a href="./sub/sub2-1.html">Beverage</a></li>
-                            <li><a href="./sub/sub2-1.html">Gelato</a></li>
-                            <li><a href="./sub/sub2-1.html">Food</a></li>
-                            <li><a href="./sub/sub2-1.html">MD</a></li>
-                        </ul>
-                    </li>
-                    <li class="depth1">
-                        <a href="./sub/sub3-1.html">FRANCHISES</a>
-                        <ul class="depth2">
-                            <li><a href="./sub/sub3-1.html">가맹점 개설 안내</a></li>
-                            <li><a href="./sub/sub3-1.html">창업 설명회</a></li>
-                            <li><a href="./sub/sub3-1.html">창업상담신청</a></li>
-                            <li><a href="./sub/sub3-1.html">추천 매물</a></li>
-                        </ul>
-                    </li>
-                    <li class="depth1">
-                        <a href="./sub/sub4-1.html">NEWS</a>
-                        <ul class="depth2">
-                            <li><a href="./sub/sub4-1.html">공지사항</a></li>
-                            <li><a href="./sub/sub4-1.html">이벤트</a></li>
-                            <li><a href="./sub/sub4-1.html">홍보센터</a></li>
-                            <li><a href="./sub/sub4-1.html">SNS</a></li>
-                        </ul>
-                    </li>
-                    <li class="depth1">
-                        <a href="#">CUSTOMER</a>
-                        <ul class="depth2">
-                            <li><a href="#">제휴안내</a></li>
-                            <li><a href="#">자주하는 질문</a></li>
-                            <li><a href="#">1:1 문의하기</a></li>
-                            <li><a href="#">매장찾기</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-            <div class="tnb">
-                <a href="#"><span>로그인</span></a>
-                <a href="#"><span>로그아웃</span></a>
-                <a href="#"><span>회원가입</span></a>
-                <a href="#"><span>마이페이지</span></a>
-            </div>
-            <div class="mobile">
-                <button type="button" class="mobile-btn">
-                    <span></span><span></span><span></span><span></span>
-                </button>
-                <div class="mobile-wrap">
-                    <div class="mobile-tnb">
-                        <a href="#"><span>로그인</span></a>
-                        <a href="#"><span>로그아웃</span></a>
-                        <a href="#"><span>회원가입</span></a>
-                        <a href="#"><span>마이페이지</span></a>
-                    </div>
-                    <div class="mobile-gnb">
-                        <ul>
-                            <li class="mobile-depth1 open">
-                                <span>CAFFE PASCUCCI<i class="xi-angle-up-min"></i></span>
-                                <ul class="mobile-depth2">
-                                    <li><a href="./sub/sub1-1.html">브랜드 소개</a></li>
-                                    <li><a href="./sub/sub1-1.html">커피 & 컬쳐</a></li>
-                                    <li><a href="./sub/sub1-1.html">ESPRESSO BAR</a></li>
-                                    <li><a href="./sub/sub1-1.html">CENTRO</a></li>
-                                </ul>
-                            </li>
-                            <li class="mobile-depth1">
-                                <span>MENU<i class="xi-angle-up-min"></i></span>
-                                <ul class="mobile-depth2">
-                                    <li><a href="./sub/sub2-1.html">Coffee</a></li>
-                                    <li><a href="./sub/sub2-1.html">Beverage</a></li>
-                                    <li><a href="./sub/sub2-1.html">Gelato</a></li>
-                                    <li><a href="./sub/sub2-1.html">Food</a></li>
-                                    <li><a href="./sub/sub2-1.html">MD</a></li>
-                                </ul>
-                            </li>
-                            <li class="mobile-depth1">
-                                <span>FRANCHISES<i class="xi-angle-up-min"></i></span>
-                                <ul class="mobile-depth2">
-                                    <li><a href="./sub/sub3-1.html">가맹점 개설 안내</a></li>
-                                    <li><a href="./sub/sub3-1.html">창업 설명회</a></li>
-                                    <li><a href="./sub/sub3-1.html">창업상담신청</a></li>
-                                    <li><a href="./sub/sub3-1.html">추천 매물</a></li>
-                                </ul>
-                            </li>
-                            <li class="mobile-depth1">
-                                <span>NEWS<i class="xi-angle-up-min"></i></span>
-                                <ul class="mobile-depth2">
-                                    <li><a href="./sub/sub4-1.html">공지사항</a></li>
-                                    <li><a href="./sub/sub4-1.html">이벤트</a></li>
-                                    <li><a href="./sub/sub4-1.html">홍보센터</a></li>
-                                    <li><a href="./sub/sub4-1.html">SNS</a></li>
-                                </ul>
-                            </li>
-                            <li class="mobile-depth1">
-                                <span>CUSTOMER<i class="xi-angle-up-min"></i></span>
-                                <ul class="mobile-depth2">
-                                    <li><a href="#">제휴안내</a></li>
-                                    <li><a href="#">자주하는 질문</a></li>
-                                    <li><a href="#">1:1 문의하기</a></li>
-                                    <li><a href="#">매장찾기</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+        <div class="gnb">
+            <div class="wrap clearfix">
+                <div class="site_link right">
+                    <ul class="clearfix">
+                        <li class="link_item login"><a href="" class="link_anchor"><span>로그인</span></a></li>
+                        <!-- <li class="link_item logout"><a href="" class="link_anchor"><span>로그아웃</span></a></li> -->
+                        <li class="link_item www"><a href="" class="link_anchor"><span>강릉시청</span></a></li>
+                        <li class="link_item cult"><a href="" class="link_anchor"><span>문화관광</span></a></li>
+                    </ul>
                 </div>
             </div>
-        
+        </div>  <!--//gnb-->
+        <div class="group">
+            <div class="logo">
+                <div class="wrap">
+                    <a href="./index.do" class="logo_anchor">
+                        <img src="/images/main/logo.svg" alt="솔향강릉 PINE CITY Gangneung">
+                        <span class="logo_text">시립예술단</span>
+                    </a>
+                </div>
+            </div>  <!--//logo-->
+            <div class="lnb">
+                <div class="menu_show">
+                    <button type="button" class="menu_btn">주메뉴 열기</button>
+                </div>
+                <nav class="menu after eachdown multiple init">
+                    <h2 class="skip">주메뉴</h2>
+                    <div class="menu_header">
+                        <div class="site_link">
+                            <ul class="clearfix">
+                                <li class="link_item login"><a href="" class="link_anchor"><span>로그인</span></a></li>
+                                <!-- <li class="link_item logout"><a href="" class="link_anchor"><span>로그아웃</span></a></li> -->
+                                <li class="link_item www"><a href="" class="link_anchor"><span>강릉시청</span></a></li>
+                                <li class="link_item cult"><a href="" class="link_anchor"><span>문화관광</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <div class="depth depth1">
+                            <ul class="depth_list depth1_list cut">
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>수련관소개</span></a>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>문화강좌</span></a>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>청소년활동지원</span></a>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>자치활동</span></a>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>소식·참여</span></a>
+                                </li>
+                            </ul>
+                        </div>  <!--//depth1-->
+                    </div>
+                    <div class="menu_hide">
+                        <button type="button" class="menu_btn">주메뉴 닫기</button>
+                    </div>
+                </nav>
+            </div>
         </div>
     </header>
     <div id="container">
@@ -154,8 +94,8 @@
                         <div class="visual_list">
                             <div class="visual_item n1" data-title="시립예술단" data-index="01">
                                 <div class="item_box"
-                                        style="background-image:url('/site/art/images/main/visual_img01.jpg');">
-                                    <img src="/site/art/images/main/visual_img01.jpg" alt="시립예술단">
+                                        style="background-image:url('images/main/visual_img01.jpg');">
+                                    <img src="images/main/visual_img01.jpg" alt="시립예술단">
                                 </div>
                                 <div class="wrap visual_wrap">
                                     <div class="visual_text">
@@ -167,8 +107,8 @@
                             </div>
                             <div class="visual_item n2" data-title="제113회 정기연주회" data-index="02">
                                 <div class="item_box"
-                                        style="background-image:url('/site/art/images/main/visual_img02.jpg');">
-                                    <img src="/site/art/images/main/visual_img02.jpg" alt="제113회 정기연주회">
+                                        style="background-image:url('/images/main/visual_img02.jpg');">
+                                    <img src="/images/main/visual_img02.jpg" alt="제113회 정기연주회">
                                 </div>
                                 <div class="wrap visual_wrap">
                                     <div class="visual_text">
@@ -180,8 +120,8 @@
                             </div>
                             <div class="visual_item n3" data-title="2023 가곡의밤" data-index="03">
                                 <div class="item_box"
-                                        style="background-image:url('/site/art/images/main/visual_img01.jpg');">
-                                    <img src="/site/art/images/main/visual_img01.jpg" alt="2023 가곡의밤">
+                                        style="background-image:url('images/main/visual_img01.jpg');">
+                                    <img src="images/main/visual_img01.jpg" alt="2023 가곡의밤">
                                 </div>
                                 <div class="wrap visual_wrap">
                                     <div class="visual_text">
@@ -193,8 +133,8 @@
                             </div>
                             <div class="visual_item n4" data-title="강릉시민음악회" data-index="04">
                                 <div class="item_box"
-                                        style="background-image:url('/site/art/images/main/visual_img01.jpg');">
-                                    <img src="/site/art/images/main/visual_img01.jpg" alt="강릉시민음악회">
+                                        style="background-image:url('images/main/visual_img01.jpg');">
+                                    <img src="images/main/visual_img01.jpg" alt="강릉시민음악회">
                                 </div>
                                 <div class="wrap visual_wrap">
                                     <div class="visual_text">
@@ -206,10 +146,9 @@
                             </div>
                         </div>
                         <div class="wrap visual_dots"></div>
-                        <div class="wrap visual_control_wrap ">
+                        <div class="wrap visual_control_wrap">
                             <div class="visual_control">
                                 <button type="button" class="visual_prev visual_arrow">이전보기</button>
-                                <button type="button" class="visual_auto">정지</button>
                                 <button type="button" class="visual_next visual_arrow">다음보기</button>
                             </div>
                         </div>
@@ -226,7 +165,7 @@
                                 <a href="" class="performance_anchor">
                                     <span class="performance_type n1"><span>예매가능</span></span><!-- performance_type n1 : 예매가능 n2: 예매마감 -->
                                     <span class="performance_image">
-                                        <img src="/site/art/images/main/performance_img01.jpg" alt="이미지 alt">
+                                        <img src="/images/main/performance_img01.jpg" alt="이미지 alt">
                                         <span></span>
                                     </span>
                                     <div class="performance_content">
@@ -244,7 +183,7 @@
                                 <a href="" class="performance_anchor">
                                     <span class="performance_type n1"><span>예매가능</span></span><!-- performance_type n1 : 예매가능 n2: 예매마감 -->
                                     <span class="performance_image">
-                                        <img src="/site/art/images/main/performance_img01.jpg" alt="이미지 alt">
+                                        <img src="/images/main/performance_img01.jpg" alt="이미지 alt">
                                         <span></span>
                                     </span>
                                     <div class="performance_content">
@@ -262,7 +201,7 @@
                                 <a href="" class="performance_anchor">
                                     <span class="performance_type n2"><span>예매마감</span></span><!-- performance_type n1 : 예매가능 n2: 예매마감 -->
                                     <span class="performance_image">
-                                        <img src="/site/art/images/main/performance_img03.jpg" alt="이미지 alt">
+                                        <img src="/images/main/performance_img03.jpg" alt="이미지 alt">
                                         <span></span>
                                     </span>
                                     <div class="performance_content">
@@ -280,7 +219,7 @@
                                 <a href="" class="performance_anchor">
                                     <span class="performance_type n2"><span>예매마감</span></span><!-- performance_type n1 : 예매가능 n2: 예매마감 -->
                                     <span class="performance_image">
-                                        <img src="/site/art/images/main/performance_img04.jpg" alt="이미지 alt">
+                                        <img src="/images/main/performance_img04.jpg" alt="이미지 alt">
                                         <span></span>
                                     </span>
                                     <div class="performance_content">
@@ -298,7 +237,7 @@
                                 <a href="" class="performance_anchor">
                                     <span class="performance_type n2"><span>예매마감</span></span><!-- performance_type n1 : 예매가능 n2: 예매마감 -->
                                     <span class="performance_image">
-                                        <img src="/site/art/images/main/performance_img04.jpg" alt="이미지 alt">
+                                        <img src="/images/main/performance_img04.jpg" alt="이미지 alt">
                                         <span></span>
                                     </span>
                                     <div class="performance_content">
@@ -316,7 +255,7 @@
                                 <a href="" class="performance_anchor">
                                     <span class="performance_type n2"><span>예매마감</span></span><!-- performance_type n1 : 예매가능 n2: 예매마감 -->
                                     <span class="performance_image">
-                                        <img src="/site/art/images/main/performance_img04.jpg" alt="이미지 alt">
+                                        <img src="/images/main/performance_img04.jpg" alt="이미지 alt">
                                         <span></span>
                                     </span>
                                     <div class="performance_content">
@@ -334,7 +273,7 @@
                                 <a href="" class="performance_anchor">
                                     <span class="performance_type n2"><span>예매마감</span></span><!-- performance_type n1 : 예매가능 n2: 예매마감 -->
                                     <span class="performance_image">
-                                        <img src="/site/art/images/main/performance_img04.jpg" alt="이미지 alt">
+                                        <img src="/images/main/performance_img04.jpg" alt="이미지 alt">
                                         <span></span>
                                     </span>
                                     <div class="performance_content">
@@ -363,8 +302,8 @@
                     <section class="performance_video">
                         <h2 class="h0">영상으로 만나는 시립예술단</h2>
                         <div class="performance_video_item">
-                            <a href="" class="video_more">
-                                <img src="/site/art/images/main/video_bg.jpg" alt="[시립교향악단]강릉시립교향악단 브루흐 스코틀랜드 환상곡 E♭ 장조 작품 46">
+                            <a href="https://youtu.be/7xI0tb5AGfo?si=4jaDjD-LZOM_AEyd" target="_blank" title="새창" class="video_more">
+                                <img src="/images/main/video_bg.jpg" alt="[시립교향악단]강릉시립교향악단 브루흐 스코틀랜드 환상곡 E♭ 장조 작품 46">
                                 <div class="performance_video_content">
                                     <p class="title"><span>[시립교향악단]</span> 강릉시립교향악단 브루흐 스코틀랜드 환상곡 E♭ 장조 작품 46</p>
                                 </div>
@@ -629,20 +568,17 @@
                         <h2 class="skip">팝업</h2>
                         <div class="popup_list">
                             <div class="popup_item">
-                                <a href="" class="popup_anchor"><img src="/site/art/images/main/popup_img01.jpg" alt="대체텍스트"></a><!-- alt 값 대체텍스트 넣어주세요 -->
+                                <a href="" class="popup_anchor"><img src="/images/main/popup_img01.jpg" alt="대체텍스트"></a><!-- alt 값 대체텍스트 넣어주세요 -->
                             </div>
                             <div class="popup_item">
-                                <a href="" class="popup_anchor"><img src="/site/art/images/main/popup_img01.jpg" alt="대체텍스트"></a>
+                                <a href="" class="popup_anchor"><img src="/images/main/popup_img01.jpg" alt="대체텍스트"></a>
                             </div>
                             <div class="popup_item">
-                                <a href="" class="popup_anchor"><img src="/site/art/images/main/popup_img01.jpg" alt="대체텍스트"></a>
+                                <a href="" class="popup_anchor"><img src="/images/main/popup_img01.jpg" alt="대체텍스트"></a>
                             </div>
                         </div>
                         <div class="popup_control">
-                            <span class="current"></span>
-                            <span class="total"></span>
                             <button type="button" class="prev">이전</button>
-                            <button type="button" class="auto"></button>
                             <button type="button" class="next">다음</button>
                         </div>
                     </section>
@@ -717,22 +653,13 @@
                 <button type="button" class="site_button" title="목록 열기"><span>관련 사이트</span></button>
                 <ul class="site_list">
                     <li class="site_item">
-                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트1</span></a>
+                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>강릉아트센터</span></a>
                     </li>
                     <li class="site_item">
-                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트2</span></a>
+                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>강릉시립미술관</span></a>
                     </li>
                     <li class="site_item">
-                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트3</span></a>
-                    </li>
-                    <li class="site_item">
-                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트4</span></a>
-                    </li>
-                    <li class="site_item">
-                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트5</span></a>
-                    </li>
-                    <li class="site_item">
-                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트6</span></a>
+                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>강릉단오제전수교육관</span></a>
                     </li>
                 </ul>
             </div>  <!--//site-->
